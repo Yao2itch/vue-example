@@ -1,14 +1,17 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <vue-file-toolbar-menu :content="my_menu"/>
 </template>
 
 <script>
+import VueFileToolbarMenu from 'vue-file-toolbar-menu'
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
+    VueFileToolbarMenu,
     HelloWorld
   }
 }
