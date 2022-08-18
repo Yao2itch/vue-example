@@ -4,12 +4,11 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import VueFileToolbarMenu from 'vue-file-toolbar-menu'
+// import VueFileToolbarMenu from 'vue-file-toolbar-menu'
 
 export default {
   name: 'App',
   components: {
-    VueFileToolbarMenu
     // HelloWorld
   }
 }
